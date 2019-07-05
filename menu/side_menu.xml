@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@drawable/nav_aboutus_24dp"
+            android:title="@string/AboutUs" />
+        <item
+            android:id="@+id/nav_ContactUs"
+            android:icon="@drawable/ic_call_black"
+            android:title="@string/contactUs" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_photo_library_black"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_careers"
+            android:icon="@drawable/nav_faq"
+            android:title="@string/careers" />
+
+        <item android:id="@+id/nav_promote"
+            android:icon="@drawable/promote"
+            android:title="Share This App"/>
+        <item
+            android:id="@+id/nav_logOut"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/logout" />
+
+    </group>
+</menu>

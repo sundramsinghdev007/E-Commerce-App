@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home"
+         />
+    <item
+        android:id="@+id/action_products"
+        android:icon="@drawable/ic_format_list_bulleted_black"
+        android:title="Products"
+         />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_person_black"
+        android:title="Profile"
+         />
+</menu>
