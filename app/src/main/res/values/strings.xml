@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Shardh</string>
+    <string name="tagline">Welcome To Sharda Fertilizers!</string>
+    <string name="tagLineone">We Serves The Land</string>
+    <string name="version">Version:1.00</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="shardha_thoughts">Sharda believes that Human Capital is its major asset and its policies ensure that ‘employees are partners in growth’. </string>
+    <string name="forgetpassword">Forget Password ?</string>
+    <string name="registerwithus">Register With Shardha Fertilizer Family..</string>
+    <string name="notregister">Have not register yet ?</string>
+    <string name="login_to_yuor_account">Login to your account !</string>
+    <string name="password">Password</string>
+    <string name="mobile_no">Mobile No..</string>
+    <string name="register_new_user">Register New User</string>
+    <string name="village">Enter Your Village Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="serverResponse">Server Response</string>
+    <string name="dashboard">Dashboard</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="nameerror">Enter a valid mobile number !</string>
+    <string name="villageerror">Do not leave empty</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="passerror">Use Atleast 8 Keywords</string>
+    <string name="ageerror">Enter a valid age</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="contactUs">Contact us</string>
+    <string name="AboutUs">About Us</string>
+    <string name="gallery">Gallery</string>
+    <string name="your_name">Your Name</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="logout">Logout</string>
+    <string name="total_exp">ecxp</string>
+    <string name="position_interested">interested</string>
+    <string name="update_detail">UpdateDetail</string>
+    <string name="user_name">User Name</string>
+    <string name="address">Address</string>
+    <string name="not_available">Not Available</string>
+    <string name="gender">Gender</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="our_gallery">Our Gallery</string>
+    <string name="contacus">ContactUs</string>
+    <string name="product_detail">Product Details</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_your_mobile_number">Enter Your Registered Mobile Number</string>
+
+    <string name="content_anmol_ratan">Contents in Anmol Ratan are Zn 6.0% Fe 3.0% Cu 0.5% Mn 1.5% Ph 3.5 0.25% Solubility 94% Pb 0.003% (Max) Extras N, P2O5, K2O, S, Mg, Ca, etc. </string>
+    <string name="content_multi_power">Contents in Multi Power are Zn 4.0% Fe 2.0% Cu 0.5% Mn 0.5% Ph 3.5 0.25% Solubility 94% (Min) Pb 0.003% (Max) Extra N, P2O5, K2O, S, Mg, Mo, Ca, etc.</string>
+    <string name="content_crop_champion">Contents in Crop Champion are Zn 10.00% Fe 5.0% Mn 2.0% Cu 1.0% B 1.0% Pb 0.003% (Max) Ph 3.5 0.25% Solubility 94% (Min) Extras Sulphor, Magnesium and NPK, Ca etc.</string>
+    <string name="content_sanjivi_plus">Contents in Sanjivini Plus are Zn 3% Fe 1.5% Cu 5% B 0.5% Ph 3.5 0.25 Pb 0.003% max Solubility 94% etc</string>
+    <string name="content_iron">Iron(partially chelated).</string>
+    <string name="content_azolla">An organic manure.</string>
+    <string name="content_crop_magic">Contents in Crop Magic are Zn 3.0% Fe 1.5% Cu 0.5% B 0.5% Pb 0.003% (Max) Ph 3.5 0.25% Solubility 94% Extra N, P2O5, K2O, S, Mg, Mo, Ca, etc. </string>
+    <string name="content_ferous_sulphate">Ferous Sulphate 19% Agriculture Grade.</string>
+    <string name="content_zinc_silphate">Zinc sulphate 21% Agricultural grade.</string>
+    <string name="content_bloom_h80">A bio stimulant</string>
+    <string name="Product_Catagory">Product Category</string>
+    <string name="Micronutrients">Micronutrients</string>
+    <string name="Bio_Fertilizers">Bio Fertilizers</string>
+    <string name="Organic_Manure">Organic Manure</string>
+    <string name="Water_Soluble">Water Soluble</string>
+    <string name="happy_customer">Our Happy Customer</string>
+
+    <string name="aboutUs">Sharda fertilizer is an Indian company that has been producing and selling fertilizers since 1995 we keep our promise to our customers suppliers and employees we treat our employees and customers as family.</string>
+    <string name="aboutUsThree">Our first plant starts from Gola Gokaran Nath Distt Lakhimpur Kheri in year 2003 Carrying a Business of Fertilizers and Real States with a vision to fertilize the barren lands of our loclity and work to provide fertilizers to the remote areas also, and today we serves the society with Marketing Offices of Sharda Groups in Meerut, Ghaziabad, Bareilly, Kheri, Kanpur, Faizabad, Allahabad and Chitrakoot(India) .</string>
+    <string name="aboutsTwo">We manufacture deliver and apply a complete range of Farm Inputs Micronutrients, Bio Fertilizers, Organic Manure, Plant Growth Promoters, Water Soluble Fertilizers Etc. .</string>
+    <string name="aboutusOne">Sharda Fertilizers U.U.S.S Ltd. also known as Sharda which is registered as a co-operative society and its Factory unit is located in Gola Gokaran Nath Distt Lakhimpur Kheri Carrying a Business of Fertilizers and Real States.</string>
+
+    <string name="ourMarketing">Our Marketing Offices and Factories:</string>
+
+    <string name="officeFourt">Factory Gola kheri Starts In 1995</string>
+    <string name="officeOne">Murad Nagar Ghaziabad Starts In 2003</string>
+    <string name="officeSecond">Meerut Office Starts In 1995</string>
+    <string name="officethird">Lakhimpur kheri Office Starts In 1995</string>
+
+    <string name="foundingmem">Our Founding Members</string>
+    <string name="fname">Mr. Ravi Prakash Verma (Secretory)</string>
+    <string name="fnameOne">Mr. Krishna Gopal Patel(Chairman &amp; M.D)</string>
+    <string name="fnameThree">Mr. Santosh Kumar verma(General Manager)</string>
+    <string name="fnameTwo">Mr. Himanshu Patel (Vice- Chairman)</string>
+
+    <string name="happyCustomer">Happy Customer</string>
+    <string name="waiting_for_next">Waiting For Next</string>
+
+    <string name="career">Sharda believes that Human Capital is its major asset and its policies ensure that employees are partners in growth. We attract, employ and develop people with exceptional skills who share our values and want to make a difference.</string>
+    <string name="careerFive">E-mail: sharda.fertilizers@gmail.com</string>
+    <string name="careerFour">Phone: 05876 233100</string>
+    <string name="careerOne">During every step of our employee careers, we invest in them by offering learning avenues, thus expanding their skill sets.</string>
+    <string name="careerSix">We also work with reputed Human Resource Consultants, with whom we seek to develop long-term relationships. If you think you can add value to our recruitment efforts, please contact the above.</string>
+    <string name="careerThree">Get into our database by sending an email with your updated resume to :</string>
+    <string name="careerTwo">Sharda offers a diverse and challenging environment with great learning and career opportunities for people who have a spark in them to scale greater heights.</string>
+    <string name="careers">Career</string>
+    <string name="something_went_wrong">Something Went Wrong !!</string>
+    <string name="total_price">Total Price : ₹ :</string>
+    <string name="content">Content</string>
+    <string name="product_name">Product Name</string>
+    <string name="name">Name:</string>
+    <string name="price">Price</string>
+    <string name="Content">Content:</string>
+    <string name="Price">Price:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="anmol_ratan">Anmol Ratan</string>
+    <string name="azolla_gr">Azolla-GR</string>
+    <string name="bloom_h_80">Bloom H-80</string>
+    <string name="ferous_sulphate">Ferous Sulphate</string>
+    <string name="iron">Iron</string>
+    <string name="multi_power">Multi Power</string>
+    <string name="sanjivni_plus">Sanjivni Plus</string>
+    <string name="quantity1">Quantity:</string>
+    <string name="rate_list_table">Rate List Table</string>
+    <string name="click_on_the_bell">Click on the bell and Go To THE Rate List For Deciding The Quantity AND PRICE</string>
+    <string name="micronutrients">Micronutrients are essential elements required by organisms in small quantities throughout life to orchestrate a range of physiological functions to maintain health. Micronutrient requirements differ between organisms; for example, humans and other animals require numerous vitamins and dietary minerals, whereas plants require specific minerals. For human nutrition, micronutrient requirements are in amounts generally less than 100 milligrams per day, whereas macronutrients are required in gram quantities daily. </string>
+    <string name="biofertilizer">A biofertilizer (also bio-fertilizer) is a substance which contains living microorganisms which, when applied to seeds, plant surfaces, or soil, colonize the rhizosphere or the interior of the plant and promotes growth by increasing the supply or availability of primary nutrients to the host plant. Biofertilizers add nutrients through the natural processes of nitrogen fixation, solubilizing phosphorus, and stimulating plant growth through the synthesis of growth-promoting substances. Biofertilizers can be expected to reduce the use of synthetic fertilizers and pesticides.</string>
+    <string name="organicmanure">Organic fertilizers are fertilizers derived from animal matter, animal excreta (manure), human excreta, and vegetable matter (e.g. compost and crop residues). Naturally occurring organic fertilizers include animal wastes from meat processing, peat, manure, slurry, and guano.
+In contrast, the majority of fertilizers used in commercial farming are extracted from minerals (e.g., phosphate rock) or produced industrially (e.g., ammonia). Organic agriculture, a system of farming, allows for certain fertilizers and amendments and disallows others; that is also distinct from this topic. </string>
+    <string name="watersoluable">n horticulture, water soluble (often hyphenated: water-soluble) is an adjective used to describe something (often a fertilizer, powdered nutrients, amendments, or pesticides) that is highly capable of being dissolved in a solvent (usually water).Water solubility is measured in milligrams per liter (mg/L); for example, the weight of pesticide (in milligrams) that will dissolve in one liter of water (L).
+Substances that are water-soluble easily rinse off with water and disperse readily through the environment when released. </string>
+</resources>
