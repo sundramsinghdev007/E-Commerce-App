@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@color/materialblue"
+    android:dividerPadding="1dp"
+    android:showDividers="middle"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Rate List Table"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TextViewProductName"
+            android:text="Product Name"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/TextViewProductQuantity"
+            android:text="Quantity"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:text="Packing"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:text="Rate/MT"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:text="REM"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:text="MRP"
+            android:textStyle="bold"
+            android:typeface="serif"></TextView>
+    </TableRow>
+<HorizontalScrollView>
+    <android.support.v7.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rateListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp" />
+</HorizontalScrollView>
+</TableLayout>

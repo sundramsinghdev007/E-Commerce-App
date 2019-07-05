@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="186dp"
+    android:background="@drawable/drawer_bg"
+    android:gravity="left|center"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:weightSum="1"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+<LinearLayout
+    android:layout_width="0dp"
+    android:gravity="left|center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="0.5">
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/logo" />
+
+    <TextView
+        android:visibility="invisible"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewDrawerUserName"
+            android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>
