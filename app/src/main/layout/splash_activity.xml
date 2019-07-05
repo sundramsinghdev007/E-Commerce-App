@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/splashbg">
+    <TextView
+        android:background="#00ffffFF"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tagline"/>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/logo"
+        android:contentDescription="TODO"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tagLineone"/>
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/version"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-medium"/>
+</LinearLayout>

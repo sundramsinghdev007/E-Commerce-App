@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:divider="@color/materialblue"
+            android:dividerPadding="1dp"
+            android:gravity="center_horizontal"
+            android:showDividers="middle">
+
+            <TextView
+                android:id="@+id/textViewProductName"
+                android:text="Day High"></TextView>
+
+            <TextView
+                android:id="@+id/textViewProductQuantity"
+                android:gravity="center_horizontal"
+                android:text="28°F"></TextView>
+
+            <TextView
+                android:id="@+id/textViewProductPacking"
+                android:gravity="center_horizontal"
+                android:text="26°F"></TextView>
+
+            <TextView
+                android:id="@+id/textViewProductRateMT"
+                android:gravity="center_horizontal"
+                android:text="23°F"></TextView>
+
+            <TextView
+                android:id="@+id/textViewREM"
+                android:gravity="center_horizontal"
+                android:text="17°F"></TextView>
+
+            <TextView
+                android:id="@+id/textViewMRP"
+                android:gravity="center_horizontal"
+                android:text="19°F"></TextView>
+        </TableRow>
+</TableLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutbg"
+    android:padding="5dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="8dp">
+
+            <TextView
+                android:id="@+id/productId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/linear_layoutImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewProduct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="10dp"
+                        android:elevation="8dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_layoutImage"
+                android:background="@color/white"
+                android:gravity="center_horizontal"
+                android:padding="20sp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/product_name"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text"
+                    android:layout_margin="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/not_available"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewName"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/content"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:id="@+id/textViewContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text1"
+                    android:layout_margin="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/not_available" />
+
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:id="@+id/productQuantityTextView"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_below="@id/textViewContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textColor="@color/black"
+                    android:text="@string/quantity1"/>
+
+                <EditText
+                    android:nextFocusForward="@id/editTextPrice"
+                    android:hint="Enter quantity"
+                    android:layout_below="@id/textViewContent"
+                    android:layout_toRightOf="@id/productQuantityTextView"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/productQuantityEditText"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:id="@+id/text2"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/productQuantityEditText"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Rs: "
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:drawableStart="@mipmap/rupeeindian"
+                    android:drawablePadding="2dp"
+                    android:id="@+id/editTextPrice"
+                    android:nextFocusForward="@id/buttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/productQuantityEditText"
+                    android:layout_toRightOf="@id/text2"
+                    android:fontFamily="sans-serif"
+                    android:hint="Enter an amount"
+                    android:drawableLeft="@mipmap/rupeeindian" />
+
+
+
+                <RelativeLayout
+                    android:id="@+id/buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTextPrice"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp">
+
+                    <TextView
+                        android:textAlignment="center"
+                        android:id="@+id/getTheRateList"
+                        android:drawableStart="@drawable/ic_add_alert_black"
+                        android:drawableEnd="@drawable/ic_add_alert_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/click_on_the_bell"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                        android:textColor="@color/green"
+                        android:textAllCaps="true"
+                        android:textColorHighlight="@color/green"
+                        android:drawableLeft="@drawable/active_dott"
+                        android:drawableRight="@drawable/ic_add_alert_black" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_layout"
+                android:layout_centerVertical="true"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/payNow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/btn_green_bg"
+                        android:elevation="4dp"
+                        android:text="Pay Now" />
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:onClick="addToCart"
+                        android:id="@+id/addToCart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/payNow"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/btn_green_bg"
+                        android:elevation="4dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_add_shopping_cart_black" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

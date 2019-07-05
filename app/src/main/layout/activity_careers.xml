@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/careers"
+                android:textAllCaps="true"
+                android:textColor="@color/materialblue"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/career"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/careerOne"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/careerTwo"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:text="@string/careerThree"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:drawableStart="@drawable/ic_call_black"
+                android:drawableLeft="@drawable/ic_call_black"
+                android:drawablePadding="10.0dip"
+                android:text="@string/careerFour"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text6"
+                android:layout_marginTop="18.0dip"
+                android:drawableStart="@drawable/ic_email_black"
+                android:drawableLeft="@drawable/ic_email_black"
+                android:drawablePadding="10.0dip"
+                android:text="@string/careerFive"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text7"
+                android:layout_marginTop="18.0dip"
+                android:text="@string/careerSix"
+                android:textSize="14.0sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
